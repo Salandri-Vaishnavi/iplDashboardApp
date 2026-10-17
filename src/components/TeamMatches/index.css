@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.team-matches-container {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #0f172a;
+}
+
+.team-banner {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .team-matches-container {
+    padding: 20px;
+  }
+
+  .recent-matches-list {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,76 @@
+/* Write your CSS here */
+
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.latest-match-card {
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.latest-match-first-section {
+  width: 30%;
+}
+
+.latest-match-second-section {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.latest-match-third-section {
+  width: 30%;
+  text-align: right;
+}
+
+.competing-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 30px;
+}
+
+.match-date,
+.match-details {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+
+.innings-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.competing-team-logo {
+  width: 180px;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-match-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .latest-match-first-section,
+  .latest-match-second-section,
+  .latest-match-third-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .competing-team-logo {
+    width: 120px;
+  }
+}
